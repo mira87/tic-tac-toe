@@ -1,0 +1,141 @@
+/*****COLORS*****/
+/****
+player one box:#04D99D
+player two box:#F2CB05
+default box color:#8245BF
+container color:white
+body color:#6F04D9
+******/
+/****FONTS******/
+/********
+
+
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lobster', cursive;
+
+
+
+
+
+******/
+
+
+body{
+    margin: 0;
+
+    background-color: #6F04D9;
+}
+
+
+.board{
+    background-color: #ffffff;
+    display: flex;
+    /* height:600px;**/
+    width: 450px; 
+    border-radius: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:  auto;
+
+}
+
+.box{
+    background-color: #8245BF;
+    width:140px;
+    height: 140px;
+    margin:5px;
+    border-radius: 20px;
+
+}
+
+/* .container{
+    height:500px;
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+} */
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: #04D99D;
+    text-align: center;
+    font-size: 75px;
+
+}
+
+
+.extra{
+    
+    text-align: center;
+    display: block;
+    margin: 51px auto;
+}
+
+
+
+.modal{
+    background-color: rgba(0,0,0,0.4);
+    left:0;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    display: none;
+}
+
+.modal-text{
+    background-color: white;
+    margin:150px auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: auto;
+    padding: 10px;
+    font-weight:200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: black;
+
+}
+
+/*********User 1 Moves********/
+
+.user1_click{
+    background-color:#04D99D;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 70px;
+}
+
+
+
+
+
+
+/***********User 2 Moves***************/
+
+.user2_click{
+    background-color:#F2CB05;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 70px;
+}
+
+
+
+a{
+    text-decoration: none; 
+}

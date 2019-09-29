@@ -1,1 +1,86 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Document</title>
+</head>
+<body>
+    <button class="about">About the Game</button>
+    <!----Modal-->
+    <div class="modal">
+            <div class="modal-text">
+
+                <p>We've all heard of the game Tic-Tac-Toe. 
+                    Now is time to play a wonderful game of Tic-Tac-Toe in style. Have Fun!!!
+                </p>
+                <a href="#" class="close">Close</a>
+
+    
+    
+    
+            </div>
+        </div>
+    
+    <!-----End of Modal-->
+    <h1>Tic-Tac-Toe</h1>
+    <div class="container">
+        <div class="board">
+            <div class="row-1">
+
+                    <div class="box top_1"></div>
+                    <div class="box middle_1"></div>
+                    <div class="box bottom_1"></div>
+            </div>
+            <div class="row-2">
+
+                    <div class="box top_2"></div>
+                    <div class="box middle_2"></div>
+                    <div class="box bottom_2"></div>
+            </div>
+            <div class="row-3">
+
+                    <div class="box top_3"></div>
+                    <div class="box middle_3"></div>
+                    <div class="box bottom_3"></div>
+            </div>
+        </div>
+        <div class="extra">
+                <button class="reset">RESET</button>
+                <button class="show_score">SCORE</button>
+        
+                <div class="score">
+                    <div class="player1_score">
+                        0
+                    </div>
+                    <div class="player2_score">
+                        0
+                    </div>
+        
+                </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!-----Build 3X3 Board
+        thinking of using flex box
+        I think I would like to create a modal that would give instructions.
+        I would like to have a reset game function and a maybe another button to display score
+    
+    
+    
+    
+    
+    --->
